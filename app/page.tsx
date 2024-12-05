@@ -3,6 +3,8 @@ import { Features } from './components/sections/Features';
 import { TrustedBrands } from './components/sections/TrustedBrands';
 import { ProjectShowcase } from './components/sections/ProjectShowcase';
 import { Expertise } from './components/sections/Expertise';
+import { HeroParallaxSection } from './components/sections/expertise/HeroParallax';
+import Footer from './components/ui/Footer';
 
 export default function Home() {
   return (
@@ -11,7 +13,8 @@ export default function Home() {
       <TrustedBrands />
       <Features />
       <Expertise />
-      <ProjectShowcase />
+      <HeroParallaxSection />
+      <Footer />
     </main>
   );
 }

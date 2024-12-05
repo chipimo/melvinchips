@@ -126,3 +126,28 @@ h1, h2, h3, h4, h5, h6 {
 .float-animation {
   animation: float 3s ease-in-out infinite;
 }
+
+.flowing-lines {
+  fill: none;
+  stroke: #ecb11a;
+  stroke-width: 0.1;
+}
+
+.flowing-line {
+  animation: flowLine 3s ease-in-out infinite;
+}
+
+@keyframes flowLine {
+  0% {
+    stroke-dasharray: 0 100;
+    opacity: 0;
+  }
+  50% {
+    stroke-dasharray: 100 0;
+    opacity: 0.3;
+  }
+  100% {
+    stroke-dasharray: 0 100;
+    opacity: 0;
+  }
+}

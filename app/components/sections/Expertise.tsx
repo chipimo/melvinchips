@@ -26,16 +26,39 @@ const expertiseData = [
 
 export function Expertise() {
   return (
-    <section className="py-20">
+    <section className="py-20 relative">
+       <div className="absolute inset-0 overflow-hidden">
+        <svg
+          className="absolute w-full h-full"
+          viewBox="0 0 100 100"
+          preserveAspectRatio="none"
+        >
+          <g className="flowing-lines">
+            {[...Array(20)].map((_, i) => (
+              <path
+                key={i}
+                d={`M0 ${80 + i * 1} Q ${30 + i * 2} ${70 - i * 2}, 100 ${
+                  85 + i * 1
+                }`}
+                className="flowing-line"
+                style={{
+                  animationDelay: `${i * 0.1}s`,
+                  opacity: 0.1 - i * 0.005,
+                }}
+              />
+            ))}
+          </g>
+        </svg>
+      </div>
       <Container>
         <motion.div
           {...fadeInUp}
           className="text-center mb-16 space-y-4"
         >
-          <span className="text-gray-400 text-sm">What&apos;s in My Magic Hat?</span>
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
             My Expertise
           </h2>
+          <span className="text-gray-400 text-sm">What&apos;s in My Magic Hat?</span>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
