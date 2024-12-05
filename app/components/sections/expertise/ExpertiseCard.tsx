@@ -8,7 +8,7 @@ interface ExpertiseCardProps {
   description: string;
   index: number;
 }
-
+   
 export function ExpertiseCard({ title, description, index }: ExpertiseCardProps) {
   return (
     <motion.div
