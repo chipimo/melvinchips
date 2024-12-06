@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Container } from "../../ui/Container";
+import FadedLine from "../../ui/faded-line";
 
 const testimonials = [
   {
@@ -46,7 +47,8 @@ const testimonials = [
 export function WallOfLove() {
   return (
     <section className="py-20">
-      <Container>
+      <FadedLine/>
+      <Container className="mt-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
