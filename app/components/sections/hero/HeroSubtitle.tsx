@@ -8,7 +8,7 @@ export function HeroSubtitle() {
     <motion.p 
       {...fadeIn}
       transition={{ delay: 0.4 }}
-      className="text-base text-gray-400 max-w-2xl mx-auto leading-relaxed"
+      className="text-xs md:text-base text-gray-400 max-w-2xl mx-auto leading-relaxed"
     >
       Building modern web applications with clean code and
       <br />

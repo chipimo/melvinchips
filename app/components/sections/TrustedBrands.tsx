@@ -50,7 +50,7 @@ const companies = [
 
 export function TrustedBrands() {
   return (
-    <section className="py-4 -mt-14 overflow-hidden bg-[#111111]/50 backdrop-blur-sm">
+    <section className="py-4 mt-28 md:-mt-14 overflow-hidden bg-[#111111]/50 backdrop-blur-sm">
       <Container>
         <div className="text-center mb-4">
           <motion.p

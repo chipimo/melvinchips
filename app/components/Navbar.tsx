@@ -10,7 +10,7 @@ export default function Navbar() {
     <motion.nav 
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className="fixed w-full top-0 bg-black/50 backdrop-blur-lg z-50"
+      className="fixed w-full top-0 bg-black/50 backdrop-blur-lg z-50 border border-1 border-g"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">

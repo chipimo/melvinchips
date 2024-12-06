@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div>
       <div className="w-[40%] flex items-center justify-center">
-        <TextHoverEffect text="MELVIN" />
+        <TextHoverEffect text="MELVIN " />
       </div>
     </div>
   );
