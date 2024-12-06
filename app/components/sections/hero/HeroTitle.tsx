@@ -39,7 +39,7 @@ export function HeroTitle() {
 
       <div className=" flex justify-center items-center ">
         <div className="text-4xl mx-auto font-normal text-neutral-600 dark:text-neutral-300">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-[1.1] ">
+          <h1 className="text-4xl text-white md:text-6xl font-bold tracking-tight leading-[1.1] ">
             Software Developer
           </h1>
           that delivers

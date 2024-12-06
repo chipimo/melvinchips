@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Navbar from './components/layout/Navbar';
 import { CheckeredBackground } from './components/background/CheckeredBackground';
+import { Footer } from './components/layout/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         {/* <CheckeredBackground /> */}
         <Navbar />
         {children}
+        <Footer/>
       </body>
     </html>
   );

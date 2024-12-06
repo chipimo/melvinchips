@@ -56,7 +56,7 @@ export function Expertise() {
           className="text-center mb-16 space-y-4"
         >
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight">
-            My Expertise
+            My <span className="text-gradient">Expertise</span>
           </h2>
           <span className="text-gray-400 text-sm">What&apos;s in My Magic Hat?</span>
         </motion.div>

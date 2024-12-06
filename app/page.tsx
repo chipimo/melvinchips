@@ -4,7 +4,8 @@ import { TrustedBrands } from './components/sections/TrustedBrands';
 import { ProjectShowcase } from './components/sections/ProjectShowcase';
 import { Expertise } from './components/sections/Expertise';
 import { HeroParallaxSection } from './components/sections/expertise/HeroParallax';
-import Footer from './components/ui/Footer';
+import { Templates } from './components/sections/home/Templates';
+import { WallOfLove } from './components/sections/home/WallOfLove';
 
 export default function Home() {
   return (
@@ -12,9 +13,10 @@ export default function Home() {
       <Hero />
       <TrustedBrands />
       <Features />
+      <Templates />
       <Expertise />
+      <WallOfLove />
       <HeroParallaxSection />
-      <Footer />
     </main>
   );
 }
