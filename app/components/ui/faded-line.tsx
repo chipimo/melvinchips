@@ -6,7 +6,7 @@ export default function FadedLine() {
   return (
     <div className="relative w-full h-16 flex items-center justify-center">
       <motion.div
-        className="h-px w-full bg-gradient-to-r from-transparent via-amber-600 to-transparent"
+        className="h-px w-full bg-gradient-to-r from-transparent via-yellow-500 to-transparent"
         initial={{ scaleX: 0 }}
         animate={{ scaleX: 1 }}
         transition={{ duration: 1, ease: "easeInOut" }}

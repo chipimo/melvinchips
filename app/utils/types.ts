@@ -24,3 +24,9 @@ export interface Feature {
   title: string;
   description: string;
 }
+
+export interface Message {
+  id: number;
+  text: string;
+  sender: "user" | "bot" | "customer-care";
+}
