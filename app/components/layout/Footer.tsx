@@ -135,7 +135,7 @@ export function Footer() {
                 <Mail className="w-4 h-4 text-[#FFEC42]" />
                 <h3 className="text-lg">Contact us</h3>
               </div>
-              <p className="text-white/60 mb-4">contact@artone.studio</p>
+              <p className="text-white/60 mb-4">chipimo31@gmail.com</p>
               <div className="space-y-3">
                 <Link
                   href="/book-call"
@@ -156,11 +156,11 @@ export function Footer() {
             <div className="md:col-span-1">
               <div className="flex items-center gap-2 mb-4">
                 <Heart className="w-4 h-4 text-[#FFEC42]" />
-                <h3 className="text-lg">Made by Razvan Badea</h3>
+                <h3 className="text-lg">Made by Melvin Chipimo</h3>
               </div>
-              <p className="text-white/60 mb-4">razvan@artone.studio</p>
+              <p className="text-white/60 mb-4">chipimo31@gmail.com</p>
               <Link
-                href="https://twitter.com/artone"
+                href="https://x.com/ChamaMelvin"
                 className="inline-flex items-center gap-2 bg-black/20 text-white hover:bg-black/30 px-4 py-2 rounded-lg"
               >
                 Follow on X
